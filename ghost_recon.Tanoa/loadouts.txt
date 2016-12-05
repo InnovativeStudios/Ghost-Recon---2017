@@ -1,0 +1,283 @@
+comment "Sniper Loadout";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_T_FullGhillie_tna_F";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "VSM_RAV_MG_M81";
+for "_i" from 1 to 4 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellGreen";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellRed";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "DemoCharge_Remote_Mag";};
+for "_i" from 1 to 6 do {this addItemToVest "7Rnd_408_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "APERSTripMine_Wire_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "APERSBoundingMine_Range_Mag";};
+this addHeadgear "VSM_ProjectHonor_OPS";
+this addGoggles "G_Tactical_Clear";
+
+comment "Add weapons";
+this addWeapon "srifle_LRR_F";
+this addPrimaryWeaponItem "optic_AMS";
+this addWeapon "hgun_P07_F";
+this addWeapon "Laserdesignator_03";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "tf_anprc148jem_3";
+this linkItem "ItemGPS";
+this linkItem "A3_GPNVG18_BLK_TI";
+
+comment "Autorifleman Loadout";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "VSM_ProjectHonor_Crye_Camo";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "VSM_LBT6094_MG_ProjectHonor";
+for "_i" from 1 to 4 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellGreen";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellRed";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SMA_150Rnd_762_M80A1";};
+this addBackpack "VSM_ProjectHonor_Backpack_Compact";
+for "_i" from 1 to 2 do {this addItemToBackpack "SMA_150Rnd_762_M80A1";};
+this addHeadgear "VSM_ProjectHonor_OPS";
+this addGoggles "G_Tactical_Clear";
+
+comment "Add weapons";
+this addWeapon "sma_minimi_mk3_762tlb";
+this addPrimaryWeaponItem "sma_gemtech_one_blk";
+this addPrimaryWeaponItem "SMA_eotech552_3XDOWN";
+this addWeapon "hgun_P07_F";
+this addWeapon "Laserdesignator_03";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "tf_anprc148jem_3";
+this linkItem "ItemGPS";
+this linkItem "A3_GPNVG18_BLK_TI";
+
+comment "Grenadier Loadout";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "VSM_ProjectHonor_Crye_Camo";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "VSM_LBT6094_breacher_ProjectHonor";
+for "_i" from 1 to 4 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellGreen";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellRed";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 6 do {this addItemToVest "SMA_20Rnd_762x51mm_M80A1_EPR";};
+for "_i" from 1 to 4 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+this addHeadgear "VSM_ProjectHonor_OPS";
+this addGoggles "G_Tactical_Clear";
+
+comment "Add weapons";
+this addWeapon "SMA_Mk17_EGLM";
+this addPrimaryWeaponItem "SMA_supp_762";
+this addPrimaryWeaponItem "SMA_eotech552_3XDOWN";
+this addWeapon "launch_NLAW_F";
+this addWeapon "hgun_P07_F";
+this addWeapon "Laserdesignator_03";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "tf_anprc148jem_3";
+this linkItem "ItemGPS";
+this linkItem "A3_GPNVG18_BLK_TI";
+
+comment "Medic Loadout";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "VSM_ProjectHonor_Crye_Camo";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "VSM_FAPC_Operator_ProjectHonor";
+for "_i" from 1 to 4 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellGreen";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellRed";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 6 do {this addItemToVest "SMA_20Rnd_762x51mm_M80A1_EPR";};
+this addBackpack "VSM_ProjectHonor_Backpack_Compact";
+this addItemToBackpack "Medikit";
+for "_i" from 1 to 4 do {this addItemToBackpack "FirstAidKit";};
+this addHeadgear "VSM_ProjectHonor_OPS";
+this addGoggles "G_Tactical_Clear";
+
+comment "Add weapons";
+this addWeapon "SMA_Mk17_16";
+this addPrimaryWeaponItem "sma_gemtech_one_blk";
+this addPrimaryWeaponItem "SMA_eotech552_3XDOWN";
+this addWeapon "hgun_P07_F";
+this addWeapon "Laserdesignator_03";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "tf_anprc148jem_3";
+this linkItem "ItemGPS";
+this linkItem "A3_GPNVG18_BLK_TI";
+
+comment "Team Leader Loadout";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "VSM_ProjectHonor_Crye_Camo";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "VSM_LBT6094_operator_ProjectHonor";
+for "_i" from 1 to 6 do {this addItemToVest "SMA_20Rnd_762x51mm_M80A1_EPR";};
+for "_i" from 1 to 4 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellGreen";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellRed";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addHeadgear "VSM_ProjectHonor_OPS";
+this addGoggles "G_Tactical_Clear";
+
+comment "Add weapons";
+this addWeapon "SMA_Mk17";
+this addPrimaryWeaponItem "SMA_supp_762";
+this addPrimaryWeaponItem "SMA_eotech552_3XDOWN";
+this addWeapon "hgun_P07_F";
+this addWeapon "Laserdesignator_03";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "tf_anprc148jem_3";
+this linkItem "ItemGPS";
+this linkItem "A3_GPNVG18_BLK_TI";
+
+comment "Helicopter Pilot Loadout";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "VSM_ProjectHonor_Crye_tan_shirt_Camo";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "VSM_CarrierRig_Breacher_ProjectHonor";
+for "_i" from 1 to 4 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellGreen";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellRed";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addHeadgear "H_PilotHelmetHeli_B";
+
+comment "Add weapons";
+this addWeapon "hgun_P07_F";
+this addWeapon "Binocular";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "tf_anprc148jem_1";
+this linkItem "ItemGPS";
+
+comment "Helicopter Crew Loadout";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "VSM_ProjectHonor_Crye_tan_shirt_Camo";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "VSM_CarrierRig_Breacher_ProjectHonor";
+for "_i" from 1 to 4 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellRed";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellGreen";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+this addHeadgear "H_CrewHelmetHeli_B";
+
+comment "Add weapons";
+this addWeapon "hgun_P07_F";
+this addWeapon "Binocular";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "tf_anprc148jem_1";
+this linkItem "ItemGPS";
